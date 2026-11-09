@@ -1,47 +1,41 @@
-<!-- Custom Day/Night Animated Banner -->
-<img src="https://raw.githubusercontent.com/Escanor-sinofpride/Escanor-sinofpride/main/banner.svg" width="100%" alt="Day to Night Banner" />
-
-<!-- Enlarged Custom Octocat Locked to the Right Box Height -->
-<img align="right" alt="Custom Octocat" width="320" src="https://raw.githubusercontent.com/Escanor-sinofpride/Escanor-sinofpride/main/octocat-1794234876124.png" />
-
-<!-- Typing Terminal -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Roboto&weight=600&size=19&pause=1000&color=F59E0B&center=false&vCenter=true&width=620&lines=ENVIRONMENTAL+ANALYSIS;Parametric+Modeling+%26+Algorithmic+Optimization;Rhino+Grasshopper+%2B+Python+Automation;Revit+API+%2B+ISO+19650+BIM+Workflows" alt="Typing SVG" />
-</a>
-
-<br style="line-height: 28px;" />
-
-<h3 style="font-family: 'Roboto', sans-serif;">
-  <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28px"> Computational Stack & Automation Pipeline
-</h3>
-
-* <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="18px"> **Generative&nbsp;Modeling:**&nbsp;Rhinoceros&nbsp;8,&nbsp;Grasshopper,&nbsp;Beegraphy,&nbsp;Kangaroo
-* <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="18px"> **BIM&nbsp;&&nbsp;Automation:**&nbsp;Autodesk&nbsp;Revit,&nbsp;Python,&nbsp;C#,&nbsp;Navisworks
-* <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="18px"> **Environmental&nbsp;Performance:**&nbsp;Ladybug,&nbsp;Honeybee,&nbsp;Solar&nbsp;&nbsp;Daylight
-* <img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="18px"> **Reality&nbsp;Capture&nbsp;&nbsp;AI:**&nbsp;3D&nbsp;LiDAR,&nbsp;Drone&nbsp;Photogrammetry,&nbsp;Local&nbsp;LLM
-
-<br clear="right"/>
+# Hi there, I'm Dave 👋
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Rhino_8-111827?style=for-the-badge&logo=rhinoceros&logoColor=white" />
-  <img src="https://img.shields.io/badge/Grasshopper-22C55E?style=for-the-badge&logo=grasshopper&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ladybug_Tools-F59E0B?style=for-the-badge&logo=ladybug&logoColor=white" />
-  <img src="https://img.shields.io/badge/Autodesk_Revit-0696D7?style=for-the-badge&logo=autodesk&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./dark_mode.svg">
+    <img alt="GitHub Profile Terminal Card" src="./light_mode.svg" width="100%">
+  </picture>
 </div>
 
-<!-- Full-Width Animated Neon RGB Line Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<br/>
 
-<h3 style="font-family: 'Roboto', sans-serif;" align="center">
-  <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28px"> GitHub Activity & Telemetry
-</h3>
+### 🛠️ Tech Stack & Tools
+- **Languages:** Python, TypeScript, JavaScript, C++, SQL
+- **Platforms & Tools:** Docker, Git, Linux, Windows Terminal, VSCode
+- **Interests:** High-Performance Systems, Open Source, Full-Stack Architecture
 
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Escanor-sinofpride&theme=tokyonight" height="155" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Escanor-sinofpride&theme=tokyonight&hide_border=true&stroke=f59e0b&ring=f59e0b&fire=f59e0b&sideLabels=94a3b8" height="155" />
-</div>
+---
 
-<!-- Full-Width Animated Neon RGB Line Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<details>
+<summary><b>⚙️ How This Auto-Updating Profile Card Works</b></summary>
+<br>
+
+This GitHub Profile README reproduces the sleek Neofetch terminal style:
+1. **ASCII Art Portrait:** Rendered directly from your photo, preserving glasses, beard, and contours.
+2. **Auto-updating Stats (`today.py`):** Runs daily at midnight UTC via GitHub Actions (`.github/workflows/build.yaml`) to calculate your live GitHub statistics (stars, commits, repositories, followers, lines of code additions/deletions) and age/uptime.
+3. **Adaptive Dark / Light Themes:** Uses `<picture>` media query tags to seamlessly match the viewer's GitHub color mode.
+
+#### Quick Setup Steps:
+1. Create a special repository matching your GitHub username (e.g., `username/username`).
+2. Place these files in the root:
+   - `README.md`
+   - `dark_mode.svg`
+   - `light_mode.svg`
+   - `today.py`
+   - `.github/workflows/build.yaml`
+3. Generate a GitHub Personal Access Token (PAT) with `read:user`, `repo`, and `read:org` permissions.
+4. In your repository, go to **Settings → Secrets and variables → Actions** and add:
+   - `ACCESS_TOKEN`: Your GitHub PAT.
+   - `USER_NAME`: Your GitHub username.
+5. Push to `main`, and your GitHub profile is live!
+</details>
