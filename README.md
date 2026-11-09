@@ -4,12 +4,21 @@
 <!-- Enlarged Custom Octocat Locked to the Right Box Height -->
 <img align="right" alt="Custom Octocat" width="320" src="https://raw.githubusercontent.com/Escanor-sinofpride/Escanor-sinofpride/main/octocat-1794234876124.png" />
 
-<!-- Typing Terminal (System.Initialize removed, Environmental Analysis updated) -->
+<!-- Left-Aligned Header Controls -->
+<h3>
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28px" />
+  <b>System.Initialize("Escanor-sinofpride")</b>
+  <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="32px" />
+</h3>
+
+<!-- Typing Terminal -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Roboto&weight=600&size=19&pause=1000&color=F59E0B&center=false&vCenter=true&width=620&lines=ENVIRONMENTAL+ANALYSIS;Parametric+Modeling+%26+Algorithmic+Optimization;Rhino+Grasshopper+%2B+Python+Automation;Revit+API+%2B+ISO+19650+BIM+Workflows" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Roboto&weight=600&size=19&pause=1000&color=F59E0B&center=false&vCenter=true&width=620&lines=Environmental+Analysis+via+Ladybug+Tools;Parametric+Modeling+%26+Algorithmic+Optimization;Rhino+Grasshopper+%2B+Python+Automation;Revit+API+%2B+ISO+19650+BIM+Workflows" alt="Typing SVG" />
 </a>
 
 <br style="line-height: 28px;" />
+
+<!-- Brown-crossed divider line completely removed -->
 
 <h3 style="font-family: 'Roboto', sans-serif;">
   <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28px"> Computational Stack & Automation Pipeline
