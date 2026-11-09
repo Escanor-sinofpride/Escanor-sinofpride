@@ -1,7 +1,7 @@
 <!-- Custom Day/Night Animated Banner -->
 <img src="https://raw.githubusercontent.com/Escanor-sinofpride/Escanor-sinofpride/main/banner.svg" width="100%" alt="Day to Night Banner" />
 
-<!-- Perfectly Scaled Custom Octocat to fit Profile View without pushing text down -->
+<!-- Perfectly Scaled Custom Octocat Locked to the Right Box Height -->
 <img align="right" alt="Custom Octocat" width="260" src="https://raw.githubusercontent.com/Escanor-sinofpride/Escanor-sinofpride/main/octocat-1794234876124.png" />
 
 <!-- Typing Terminal -->
@@ -39,8 +39,16 @@
 </h3>
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Escanor-sinofpride&theme=tokyonight" height="155" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Escanor-sinofpride&theme=tokyonight&hide_border=true&stroke=f59e0b&ring=f59e0b&fire=f59e0b&sideLabels=94a3b8" height="155" />
+  <table align="center" border="0" cellspacing="0" cellpadding="10">
+    <tr>
+      <td align="center">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Escanor-sinofpride&theme=tokyonight" height="155" />
+      </td>
+      <td align="center">
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Escanor-sinofpride&theme=tokyonight&hide_border=true&stroke=f59e0b&ring=f59e0b&fire=f59e0b&sideLabels=94a3b8" height="155" />
+      </td>
+    </tr>
+  </table>
 </div>
 
 <!-- Full-Width Animated Neon RGB Line Divider -->
