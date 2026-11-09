@@ -1,24 +1,24 @@
 <!-- Custom Day/Night Animated Banner -->
 <img src="https://raw.githubusercontent.com/Escanor-sinofpride/Escanor-sinofpride/main/banner.svg" width="100%" alt="Day to Night Banner" />
 
-<!-- Enlarged Custom Octocat Locked to the Right Box Height -->
-<img align="right" alt="Custom Octocat" width="320" src="https://raw.githubusercontent.com/Escanor-sinofpride/Escanor-sinofpride/main/octocat-1794234876124.png" />
+<!-- Perfectly Scaled Custom Octocat to fit Profile View without pushing text down -->
+<img align="right" alt="Custom Octocat" width="260" src="https://raw.githubusercontent.com/Escanor-sinofpride/Escanor-sinofpride/main/octocat-1794234876124.png" />
 
-<!-- Typing Terminal (System.Initialize removed, Environmental Analysis updated) -->
+<!-- Typing Terminal -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Roboto&weight=600&size=19&pause=1000&color=F59E0B&center=false&vCenter=true&width=620&lines=ENVIRONMENTAL+ANALYSIS;Parametric+Modeling+%26+Algorithmic+Optimization;Rhino+Grasshopper+%2B+Python+Automation;Revit+API+%2B+ISO+19650+BIM+Workflows" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Roboto&weight=600&size=19&pause=1000&color=F59E0B&center=false&vCenter=true&width=530&lines=ENVIRONMENTAL+ANALYSIS;Parametric+Modeling+%26+Algorithmic+Optimization;Rhino+Grasshopper+%2B+Python+Automation;Revit+API+%2B+ISO+19650+BIM+Workflows" alt="Typing SVG" />
 </a>
 
-<br style="line-height: 28px;" />
+<br style="line-height: 24px;" />
 
-<h3 style="font-family: 'Roboto', sans-serif;">
-  <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28px"> Computational Stack & Automation Pipeline
+<h3 style="font-family: 'Roboto', sans-serif; font-size: 18px;">
+  <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="24px"> Computational Stack & Automation Pipeline
 </h3>
 
-* <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="18px"> **Generative Modeling:**&nbsp;Rhinoceros&nbsp;8,&nbsp;Grasshopper,&nbsp;Beegraphy,&nbsp;Kangaroo&nbsp;Physics
-* <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="18px"> **BIM & API Automation:**&nbsp;Autodesk&nbsp;Revit,&nbsp;Python&nbsp;(`pyRevit`/`RevitAPI`),&nbsp;C#,&nbsp;Navisworks
-* <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="18px"> **Environmental Performance:**&nbsp;Ladybug&nbsp;Tools,&nbsp;Honeybee,&nbsp;Solar&nbsp;&&nbsp;Daylight&nbsp;Rationalization
-* <img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="18px"> **Reality Capture & AI:**&nbsp;3D&nbsp;LiDAR&nbsp;Point&nbsp;Clouds,&nbsp;Drone&nbsp;Photogrammetry,&nbsp;Local&nbsp;LLM&nbsp;/&nbsp;MCP
+- <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="16px"> **Generative Modeling:**&nbsp;Rhino&nbsp;8,&nbsp;Grasshopper,&nbsp;Kangaroo
+- <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="16px"> **BIM & Automation:**&nbsp;Revit,&nbsp;Python&nbsp;(`pyRevit`),&nbsp;C#
+- <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="16px"> **Environmental:**&nbsp;Ladybug&nbsp;Tools,&nbsp;Honeybee,&nbsp;Solar&nbsp;Analysis
+- <img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="16px"> **Reality Capture & AI:**&nbsp;LiDAR,&nbsp;Photogrammetry,&nbsp;MCP
 
 <br clear="right"/>
 
