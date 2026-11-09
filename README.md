@@ -22,7 +22,8 @@
 
 ### <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28px"> Computational Stack & Automation Pipeline
 
-<img align="right" alt="Coding Avatar" width="220" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif">
+<!-- Your Custom Octocat Avatar Aligned to the Right -->
+<img align="right" alt="Custom Octocat" width="230" src="octocat-1794234876124.jpg" />
 
 * <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="20px"> **Generative Modeling:** Rhinoceros 8, Grasshopper, Beegraphy, Kangaroo Physics
 * <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="20px"> **BIM & API Automation:** Autodesk Revit, Python (`pyRevit` / `RevitAPI`), C#, Navisworks
@@ -46,7 +47,7 @@
 ### <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28px"> GitHub Activity & Telemetry
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Escanor-sinofpride&show_icons=true&theme=tokyonight&hide_border=true&title_color=f59e0b&icon_color=f59e0b&text_color=94a3b8&bg_color=0f172a" height="155" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Escanor-sinofpride&theme=tokyonight" height="155" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Escanor-sinofpride&theme=tokyonight&hide_border=true&stroke=f59e0b&ring=f59e0b&fire=f59e0b&sideLabels=94a3b8" height="155" />
 </div>
 
