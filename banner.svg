@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230" width="100%" height="100%">
+  <defs>
+    <!-- Animated Sky Gradient: Transitions Day -> Sunset -> Night -> Dawn -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%">
+        <animate attributeName="stop-color" values="#0284c7;#ea580c;#090d16;#090d16;#38bdf8;#0284c7" keyTimes="0;0.35;0.5;0.85;0.95;1" dur="16s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%">
+        <animate attributeName="stop-color" values="#bae6fd;#4c1d95;#1e1b4b;#1e1b4b;#f59e0b;#bae6fd" keyTimes="0;0.35;0.5;0.85;0.95;1" dur="16s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Glowing Sun Filter -->
+    <filter id="sunGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Glowing Moon Filter -->
+    <filter id="moonGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Exact Parabolic Arc Path (Left to Right like your Green Line) -->
+    <path id="celestialArc" d="M 60,185 Q 600,-35 1140,185" />
+
+    <!-- Clip Path for Waving Bottom Edge -->
+    <clipPath id="waveClip">
+      <path d="M 0,0 L 1200,0 L 1200,195 Q 900,235 600,200 T 0,205 Z" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#waveClip)">
+    <!-- Sky Background -->
+    <rect width="1200" height="230" fill="url(#skyGrad)" />
+
+    <!-- Night Stars (Fade in during Moon phase) -->
+    <g fill="#ffffff">
+      <animate attributeName="opacity" values="0;0;0.9;0.9;0" keyTimes="0;0.42;0.55;0.85;1" dur="16s" repeatCount="indefinite" />
+      <circle cx="180" cy="40" r="1.5" />
+      <circle cx="340" cy="70" r="1" />
+      <circle cx="520" cy="30" r="2" />
+      <circle cx="680" cy="60" r="1.2" />
+      <circle cx="840" cy="35" r="1.8" />
+      <circle cx="980" cy="75" r="1.5" />
+      <circle cx="1090" cy="45" r="1.2" />
+      <circle cx="760" cy="95" r="1" />
+      <circle cx="430" cy="90" r="1.4" />
+    </g>
+
+    <!-- Subtle Solar/Lunar Trajectory Dashed Curve -->
+    <use href="#celestialArc" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="6,8" opacity="0.22" />
+
+    <!-- THE SUN (Moves along arc from 0s to 8s) -->
+    <g filter="url(#sunGlow)">
+      <circle r="24" fill="#fde047" stroke="#f59e0b" stroke-width="3">
+        <animateMotion dur="16s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.5;1" calcMode="linear">
+          <mpath href="#celestialArc" />
+        </animateMotion>
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.45;0.5;1" dur="16s" repeatCount="indefinite" />
+      </circle>
+    </g>
+
+    <!-- THE CRESCENT MOON (Moves along arc from 8s to 16s) -->
+    <g filter="url(#moonGlow)">
+      <path d="M -10,-20 A 22,22 0 1,0 20,10 A 17,17 0 1,1 -10,-20 Z" fill="#f8fafc">
+        <animateMotion dur="16s" repeatCount="indefinite" keyPoints="0;0;1" keyTimes="0;0.5;1" calcMode="linear">
+          <mpath href="#celestialArc" />
+        </animateMotion>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.5;0.55;0.95;1" dur="16s" repeatCount="indefinite" />
+      </path>
+    </g>
+
+    <!-- Subtle Architectural Silhouette Horizon -->
+    <path d="M0,230 L0,185 L120,192 L280,178 L480,195 L720,180 L960,195 L1200,182 L1200,230 Z" fill="#0d1117" opacity="0.35" />
+
+    <!-- Left-Aligned Name & Title -->
+    <text x="75" y="108" font-family="&#39;Segoe UI&#39;, Roboto, Helvetica, sans-serif" font-size="48" font-weight="800" fill="#ffffff" style="text-shadow: 0px 3px 12px rgba(0,0,0,0.45);">
+      Debansu Chatterjee
+    </text>
+    <text x="77" y="148" font-family="&#39;Segoe UI&#39;, Roboto, Helvetica, sans-serif" font-size="22" font-weight="500" fill="#f1f5f9" opacity="0.95" style="text-shadow: 0px 2px 8px rgba(0,0,0,0.45);">
+      Architect | Computational Designer | BIM Specialist
+    </text>
+  </g>
+</svg>
