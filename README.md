@@ -1,10 +1,8 @@
 <!-- Animated Header Banner (Left-Aligned) -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24&height=200&section=header&text=Debansu%20Chatterjee&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlign=28&fontAlignY=38&desc=Architect%20%7C%20Computational%20Designer%20%7C%20BIM%20Specialist&descAlign=31&descAlignY=58" width="100%" />
 
-<!-- Your Custom Octocat Positioned in the Right Box Area -->
-<img align="right" alt="Custom Octocat" width="280" src="https://raw.githubusercontent.com/Escanor-sinofpride/Escanor-sinofpride/main/octocat-1794234876124.png" />
-
-<div align="left">
+<!-- Full-Height Custom Octocat Spanning Both Sections on the Right -->
+<img align="right" alt="Custom Octocat" width="380" src="https://raw.githubusercontent.com/Escanor-sinofpride/Escanor-sinofpride/main/octocat-1794234876124.png" />
 
 <!-- Left-Aligned Wave + System.Initialize + Pixel Rocket -->
 <h3>
@@ -15,13 +13,15 @@
 
 <!-- Left-Aligned Animated Typing Terminal -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=F59E0B&center=false&vCenter=true&width=600&lines=Parametric+Modeling+%26+Algorithmic+Optimization;Environmental+Analysis+via+Ladybug+Tools;Rhino+Grasshopper+%2B+Python+Automation;Revit+API+%2B+ISO+19650+BIM+Workflows" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&pause=1000&color=F59E0B&center=false&vCenter=true&width=520&lines=Parametric+Modeling+%26+Algorithmic+Optimization;Environmental+Analysis+via+Ladybug+Tools;Rhino+Grasshopper+%2B+Python+Automation;Revit+API+%2B+ISO+19650+BIM+Workflows" alt="Typing SVG" />
 </a>
 
-</div>
+<br/>
 
-<!-- Animated Neon RGB Line Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<!-- Shortened Divider so it stays to the left of the big Octocat -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="58%" align="left" />
+
+<br/>
 
 ### <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28px"> Computational Stack & Automation Pipeline
 
@@ -41,7 +41,7 @@
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" />
 </div>
 
-<!-- Animated Neon RGB Line Divider -->
+<!-- Full-Width Animated Neon RGB Line Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ### <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28px"> GitHub Activity & Telemetry
@@ -51,5 +51,5 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Escanor-sinofpride&theme=tokyonight&hide_border=true&stroke=f59e0b&ring=f59e0b&fire=f59e0b&sideLabels=94a3b8" height="155" />
 </div>
 
-<!-- Animated Neon RGB Line Divider -->
+<!-- Full-Width Animated Neon RGB Line Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
